@@ -127,7 +127,7 @@
   // access_token
   const access_token = 'AKrjtID-ThKxSbA56nG-QAA';
     const stationInfo_spaceId = 'GKHmb70Z';
-    const stationParams_spaceId = 'TNO0TOyF'; 
+    const stationParams_spaceId = 'TNO0TOyF';
 
   let stationInfo = []; // заполняемый массив
 
@@ -340,9 +340,9 @@ const BS = [
             }});
         }
     })
-    if(R < 19) obj.status = STATUS.OK;
-    if(R > 19 && R < 25) obj.status = STATUS.WARNING;
-    if(R > 25) obj.status = STATUS.DANGER;
+    if(R < 3) obj.status = STATUS.OK;
+    if(R > 3 && R < 13) obj.status = STATUS.WARNING;
+    if(R > 18) obj.status = STATUS.DANGER;
     return obj;
 
   }
