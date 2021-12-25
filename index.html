@@ -401,7 +401,7 @@ const BS = [
   let promise = $.Deferred();
   promises.push(promise);
 
-  $.getJSON("stationParams.json").then((data)=> {
+  $.getJSON("https://xyz.api.here.com/hub/spaces/" + stationParams_spaceId + "/search?p.station_id=" + station.id + "&access_token=" + access_token).then((data)=> {
    let params = [];
 
    let features = data.features;
