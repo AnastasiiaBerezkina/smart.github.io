@@ -3,10 +3,10 @@
   <title>Cистема мониторинга радиосети ГМССБ ФГУП "Росморпорт"</title>
   <meta charSet="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
-  <link rel="stylesheet" href="node_modules/framework7/css/framework7.bundle.min.css"/>
+  <link rel="stylesheet" href="assets/framework7/css/framework7.bundle.min.css"/>
   <link rel="stylesheet" href="app.css"/>
-  <link rel="stylesheet" href="node_modules/framework7/css/framework7.min.css"/>
-  
+  <link rel="stylesheet" href="assets/framework7/css/framework7.min.css"/>
+
   <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
   <style>
     body {
@@ -16,18 +16,18 @@
     #map { height: 100vh; width: 100%; }
     .alert {
       padding: 35px;
-      
-      
+
+
       color: #003366;
-      
+
       height: 64px;
-       
+
         /*background-color:rgba(83,116,142,0.14)*/
         background:white;
     }
-    
-   
-    
+
+
+
      th {
     background: #B0C4DE; /* Цвет фона */
     color: #333;  /* Цвет текста */
@@ -78,14 +78,14 @@
 <div class="view main-view">
 <div class="page ios">
   <div class="page-content">
-   
+
     <div class="alert" >
       <strong> <p class="display-flex flex-row align-items-center"><img src="./Lc3LEf8dRKU.jpg" wight= "65" height= "55" <p><font size="6" color="MidnightBlue" face="Palatino Linotype"> Cистема мониторинга радиосети ГМССБ ФГУП "Росморпорт"</font></p></strong>
      </div>
-     
+
   <div class="main-block ">
      <div style="width: 640px; height: 640px" id="map"></div>
-    
+
             <div id= "table" style="transition: transform 0.6s, opacity 0.6s; transform: translateX(400px); opacity: 0;" class="data-table horizontalScroll">
               <table>
                 <caption> Береговые станции морского района А1 ГМССБ </caption>
@@ -95,15 +95,15 @@
                     <th class="label-cell">Владелец объекта</th>
                     <th class="label-cell">Свидетельство Росморречфлота</th>
                     <th class="label-cell">Установленный статус</th>
-                    
+
                   </tr>
                 </thead>
                 <tbody class="container-data">
-                  
+
                 </tbody>
               </table>
             </div>
-          
+
           </div>
 </div>
 </div>
@@ -113,30 +113,30 @@
 <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
 <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
 <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
-<script src="node_modules/framework7/js/framework7.min.js"></script>
-<script src="node_modules/framework7/js/framework7.bundle.min.js"></script>
+<script src="assets/framework7/js/framework7.min.js"></script>
+<script src="assets/framework7/js/framework7.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
-  
+
   const STATUS = {
     "OK" : "В работе",
     "DANGER" : "Отказ",
     "WARNING" : "Предупреждение"
   }
-                               
+
   // access_token
   const access_token = 'AKrjtID-ThKxSbA56nG-QAA';
     const stationInfo_spaceId = 'GKHmb70Z';
     const stationParams_spaceId = '7GVuU3M3';
-  
+
   let stationInfo = []; // заполняемый массив
-  
+
   // instance для фреймворка f7
   // https://framework7.io
   let app = new Framework7({
     root: '#app'
   }
-  ); 
+  );
   // получает по index информацию о station
   function getStation(index) {
      for(let i = 0; i < stationInfo.length; i++) {
@@ -145,12 +145,12 @@
      }
      return null;
   }
- 
-  
+
+
   // функция для заполнения таблицы
   function insertTable() {
     stationInfo.map((item, index)=> {
-     
+
     $('.container-data').append($('<tr/>', {
       id:"id" + item.index
     }));
@@ -185,7 +185,7 @@
        }));
   });
   }
-  
+
   function showMap() {
     const platform = new H.service.Platform({ apikey: 'ycb_bzlQLPHt5Zh0-Mtl3lTNtjX47tWYllVik5q-Jg4' });
   const defaultLayers = platform.createDefaultLayers();
@@ -195,7 +195,7 @@
       zoom: 13,
       pixelRatio: window.devicePixelRatio || 1
     });
-    
+
   window.addEventListener('resize', () => map.getViewPort().resize());
   const behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
   const ui = H.ui.UI.createDefault(map, defaultLayers);
@@ -210,8 +210,8 @@
    */
    const createMarker = (text, coords, status, id) => {
      let background = "green";
-    
-     
+
+
     var svgMarkup = `
       <div id=${id} style="width: fit-content; height: 28px; border: 1px solid black; background: ${background};">
         <span style="color: white; padding: 2px; line-height: 26px;">${text}</span>
@@ -229,7 +229,7 @@
               $("#" + $(clonedElement).attr("id")).css('background', background);
             }, 7000);
         }
-       
+
     }
      });
     return new H.map.DomMarker(coords, {icon: icon});
@@ -255,21 +255,21 @@
    //#change : изменила text => name, markersData => stationInfo
 
    stationInfo.forEach(el => {
-   
+
     let marker = createMarker(el.text, el.coords, el.status, "for_" + el.index);
-      
+
       map.addObject(marker);
       map.re
       marker.data = el;
       marker.addEventListener('pointerenter', function(evt) {
-        
+
         $("#id" + evt.target.data.index).addClass('active');
         if(!el.tooptip) el.tooltip = createTooltip(el.paramsWarn, "for_" + el.index,ui,el);
          }, false);
      marker.addEventListener('pointerleave', function(evt) {
         $("#id" + evt.target.data.index).removeClass('active');
          }, false);
-    
+
     /**
      *Область действия Береговой Станции
     */
@@ -279,7 +279,7 @@
    map.addObject(circle);
 
   });
- 
+
 
 var points = [
   { lat: 43.59917, lng: 39.72569 },
@@ -303,7 +303,7 @@ map.getViewModel().setLookAtData({bounds: polyline.getBoundingBox()});
 /***/
 const novoros = { lat: 44.7243900, lng: 37.7675200 }
 const BS = [
-    
+
    { lat: 45.1613, lng: 37.2313 },
 ];
 
@@ -314,10 +314,10 @@ const BS = [
     const poliline = new H.map.Polyline(line, { style: { lineWidth: 4 } });
     map.addObject(poliline);
   });
-  
+
   }
 
-    
+
   // получить статус на основе ref и access_agreement
   // @return {type Object} - { status , paramsWarn}
   function getStatus(params){
@@ -346,8 +346,8 @@ const BS = [
     return obj;
 
   }
- 
-    
+
+
   // создание tooltip на основе параметров paramsWarn
   // привязывает tooltip к маркеру с id: param id
   function createTooltip(paramsWarn, id, ui, el) {
@@ -355,7 +355,7 @@ const BS = [
       if(paramsWarn.length == 0) return null;
       paramsWarn.map((item)=>{
         text += `
-           ${item.param_name}${item.max ? ">" : "<"}${item.max || item.min} 
+           ${item.param_name}${item.max ? ">" : "<"}${item.max || item.min}
            <br>
         `;
       })
@@ -374,14 +374,14 @@ const BS = [
       return bubble;
   }
 
- 
+
 
   // запрос на получение stationInfo
   $.getJSON("https://xyz.api.here.com/hub/spaces/" + stationInfo_spaceId + "/iterate?access_token=" + access_token).done(async(data)=>{
     let promises = [];
-   
+
     data.features.map(async (station, index) => {
-    
+
     let props = station.properties;
     console.log(station.geometry);
     let coords = {lat : station.geometry.coordinates[0],lng : station.geometry.coordinates[1] };
@@ -396,33 +396,33 @@ const BS = [
       radius : props.radius,
       index ,
       tooltip : null
-     
+
   };
   let promise = $.Deferred();
   promises.push(promise);
-  
+
   $.getJSON("https://xyz.api.here.com/hub/spaces/" + stationParams_spaceId + "/search?p.station_id=" + station.id + "&access_token=" + access_token).then((data)=> {
    let params = [];
-   
+
    let features = data.features;
-   
+
    features.map((feature)=> {
      console.log(feature);
      let props = feature.properties;
-     
-      
+
+
      params.push({
        measure: props.measure,
        param_name : props.param_name,
        actual_value : props.actual_value,
        station_name : props.station_name,
        access_agreement : props.access_agreement,
-     
+
        ref : props.ref
      })
-     
+
    })
-   
+
    let {status, paramsWarn} = getStatus(params);
    if(status == STATUS.DANGER || status == STATUS.WARNING) {
      st.hasPopup = true;
@@ -434,20 +434,20 @@ const BS = [
 
    promise.resolve();
   });
-  
-  
-    }); 
-  
+
+
+    });
+
     Promise.all(promises).then(()=>{
-     
+
       insertTable();
       showMap();
-    
+
     });
-     
-     
+
+
   });
- 
+
   const table = document.getElementById('table');
 window.addEventListener('load', () => {
 setTimeout(() => {
@@ -477,7 +477,7 @@ $("#table").click((ev)=> {
                        <p>Состав оборудования</p>
 
                        <ul>
-                          <li><b>Приемопередатчики:</b></li>  
+                          <li><b>Приемопередатчики:</b></li>
                           <li>МХ800 (Spectra Engineering Pty Ltd., Австралия)- <a href="#">тех.документация</a></li>
                           <li>JRV-500 (Japan Radio Co. Ltd., Япония)- <a href="#">тех.документация</a></li>
                           <li><b>Контроллеры (модемы) ЦИВ:</b></li>
@@ -497,7 +497,7 @@ $("#table").click((ev)=> {
                           return `
                              <li>${param.param_name} : ${param.actual_value}</li>
                           `;
-                        }).join("") 
+                        }).join("")
                        }
                        </ul>
 
@@ -512,9 +512,9 @@ $("#table").click((ev)=> {
      }
 
   }
-})    
- 
-  
+})
+
+
 </script>
 
 
