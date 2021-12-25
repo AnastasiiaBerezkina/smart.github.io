@@ -340,9 +340,9 @@ const BS = [
             }});
         }
     })
-    if(R < 18) obj.status = STATUS.OK;
-    if(R > 18 && R < 21) obj.status = STATUS.WARNING;
-    if(R > 21) obj.status = STATUS.DANGER;
+    if(R < 19) obj.status = STATUS.OK;
+    if(R > 19 && R < 25) obj.status = STATUS.WARNING;
+    if(R > 25) obj.status = STATUS.DANGER;
     return obj;
 
   }
