@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "etag": "\"bfedc6f9bf64b6d09545f2188e89f253\"",
+  "features": [
+    {
+      "id": "0XsK7ZpDUFA7u91Y",
+      "type": "Feature",
+      "properties": {
+        "ref": 5,
+        "measure": "Вт",
+        "param_name": "Мощность ТX",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": 5,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "34f50ccb-ad96-42ec-896f-9260f9d21be6",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          4.5,
+          5.5
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.40383,
+          55.851769,
+          0
+        ]
+      }
+    },
+    {
+      "id": "V38I7agZwrhgtHzR",
+      "type": "Feature",
+      "properties": {
+        "ref": 7,
+        "measure": "дБ",
+        "param_name": "Чувствительность RX",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": -112,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "e42f4a60-4072-468b-aa3d-d8cf3364cb2b",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          -117,
+          -107
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.40383,
+          55.851769,
+          0
+        ]
+      }
+    },
+    {
+      "id": "oyoa7RVxBS8j4HGm",
+      "type": "Feature",
+      "properties": {
+        "ref": 6,
+        "measure": "МГц",
+        "param_name": "Частота TX",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": 148,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "311264db-511a-4b7a-a305-be627b33c49a",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          30,
+          960
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.40383,
+          55.851769,
+          0
+        ]
+      }
+    },
+    {
+      "id": "QriixAIeZxO4OULM",
+      "type": "Feature",
+      "properties": {
+        "ref": 3,
+        "measure": "МГц",
+        "param_name": "Частота RX",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": 148,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "6bb0f84d-141b-4b35-a816-ff026af17688",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          30,
+          960
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.40383,
+          55.851769,
+          0
+        ]
+      }
+    },
+    {
+      "id": "uCj1Fu2M9e7VVgmh",
+      "type": "Feature",
+      "properties": {
+        "ref": 8,
+        "measure": "В",
+        "param_name": "Напряжение питания",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": 11,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "d1573855-b8b0-4361-8ae1-27eb05d214a8",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          7.8,
+          13.8
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.40383,
+          51.851769,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mSz9aTGpEgheLnz0",
+      "type": "Feature",
+      "properties": {
+        "ref": 2,
+        "measure": "C",
+        "param_name": "Температура помещения",
+        "station_id": "C5B7P1nFbjbDvCVa",
+        "actual_value": 25,
+        "station_name": "БС1 \"Дооб\" (Геленджик)",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationparams",
+            "stationparams_7gvuu3m3"
+          ],
+          "uuid": "0bdb9128-1836-4acd-a8c0-32beb108a4f8",
+          "space": "YNdEWOjp",
+          "createdAt": 1640451205889,
+          "updatedAt": 1640451205889
+        },
+        "access_agreement": [
+          -10,
+          60
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.40383,
+          52.851769,
+          0
+        ]
+      }
+    }
+  ]
+}
