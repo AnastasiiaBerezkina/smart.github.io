@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "etag": "\"2c62c6ca38a9539962684f9b52fbe498\"",
+  "features": [
+    {
+      "id": "k1n6WtRHqDYhkLKe",
+      "type": "Feature",
+      "properties": {
+        "name": "БС РЦУС Новороссийск",
+        "text": "БС РЦУС",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 80000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B/%D0%B1%D1%81%20%D0%BC%D1%80%20%D0%B01%20%D0%B3%D0%BC%D1%81%D1%81%D0%B1/%D0%B1%D1%81_%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA_%D0%B01_%D0%B3%D0%BC%D1%81%D1%81%D0%B1_00771.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863447413
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.72439,
+          37.76752,
+          0
+        ]
+      }
+    },
+    {
+      "id": "C5B7P1nFbjbDvCVa",
+      "type": "Feature",
+      "properties": {
+        "name": "БС1 \"Дооб\" (Геленджик)",
+        "text": "БС 1",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 40000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B/%D0%B1%D1%81%20%D0%BC%D1%80%20%D0%B01%20%D0%B3%D0%BC%D1%81%D1%81%D0%B1/%D0%B1%D1%81_%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA_%D0%B01_%D0%B3%D0%BC%D1%81%D1%81%D0%B1_00771.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863469028
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.529923,
+          38.093204,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hVXwSOvJ3YCdR4QG",
+      "type": "Feature",
+      "properties": {
+        "name": "БС2 \"Лысая\"(Анапа)",
+        "text": "БС 2",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 40000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B/%D0%B1%D1%81%20%D0%BC%D1%80%20%D0%B01%20%D0%B3%D0%BC%D1%81%D1%81%D0%B1/%D0%B1%D1%81_%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA_%D0%B01_%D0%B3%D0%BC%D1%81%D1%81%D0%B1_00771.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863492231
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.89084,
+          37.3239,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hoo77Ed8WNc5URFf",
+      "type": "Feature",
+      "properties": {
+        "name": "БС3 (Темрюк)",
+        "text": "БС 3",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 50000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/береговые%20объекты/бс%20мр%20а1%20гмссб/бс_а1_гмссб_темрюк_00713.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863537839
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.1613,
+          37.2313,
+          0
+        ]
+      }
+    },
+    {
+      "id": "Z2Mht8tnJWdts8mB",
+      "type": "Feature",
+      "properties": {
+        "name": "БС 4 (Таганрог)",
+        "text": "БС 4",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 50000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/береговые%20объекты/бс%20мр%20а1%20гмссб/бс_а1_гмссб_темрюк_00713.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863554384
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.23617,
+          38.89688,
+          0
+        ]
+      }
+    },
+    {
+      "id": "N5SP5SNCnY5qfLxZ",
+      "type": "Feature",
+      "properties": {
+        "name": "БС 5 (Туапсе)",
+        "text": "БС 5",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 70000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/береговые%20объекты/бс%20мр%20а1%20гмссб/бс_а1гмссб_туапсе_00750.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863576457
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.1053,
+          39.0802,
+          0
+        ]
+      }
+    },
+    {
+      "id": "WThws3G1CmC7aseS",
+      "type": "Feature",
+      "properties": {
+        "name": "БС 6 (Сочи)",
+        "text": "БС 6",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 70000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/береговые%20объекты/бс%20мр%20а1%20гмссб/бс_а1гмссб_сочи_00897.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863587374
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.59917,
+          39.72569,
+          0
+        ]
+      }
+    },
+    {
+      "id": "HMFLxBpHy3K1T4pP",
+      "type": "Feature",
+      "properties": {
+        "name": "БС7 (Ейск)",
+        "text": "БС7",
+        "owner": "ФГУП \"Росморпорт\"",
+        "radius": 80000,
+        "certificate": "https://www.marsat.ru/files/svidetelstva/береговые%20объекты/бс%20мр%20а1%20гмссб/бс_а1_гмссб_ейск_00715.pdf",
+        "@ns:com:here:xyz": {
+          "tags": [
+            "stationinfo"
+          ],
+          "space": "t9yD5pDx",
+          "createdAt": 1588856796362,
+          "updatedAt": 1588863599897
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7055,
+          38.2739,
+          0
+        ]
+      }
+    }
+  ]
+}
