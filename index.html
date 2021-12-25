@@ -127,7 +127,6 @@
   // access_token
   const access_token = 'AKrjtID-ThKxSbA56nG-QAA';
     const stationInfo_spaceId = 'GKHmb70Z';
-    const stationParams_spaceId = '7GVuU3M3';
 
   let stationInfo = []; // заполняемый массив
 
@@ -401,7 +400,7 @@ const BS = [
   let promise = $.Deferred();
   promises.push(promise);
 
-  $.getJSON("https://xyz.api.here.com/hub/spaces/" + stationParams_spaceId + "/search?p.station_id=" + station.id + "&access_token=" + access_token).then((data)=> {
+  $.getJSON("stationParams.json").then((data)=> {
    let params = [];
 
    let features = data.features;

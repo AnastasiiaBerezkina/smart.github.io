@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "etag": "\"5e73641959eca79e860b22ba2bcb3aaa\"",
+  "etag": "\"d4c4ddddadfaa4fd27b000e9961b068d\"",
   "features": [
     {
       "id": "0XsK7ZpDUFA7u91Y",
@@ -16,9 +16,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871870529
+          "uuid": "a20f21ab-6a3c-4fad-8cc0-4006580e88a7",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           100
@@ -47,9 +48,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871872729
+          "uuid": "b5f1bc19-3d27-4420-8834-ac1bcd22d9c1",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           -100
@@ -78,9 +80,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871874553
+          "uuid": "53ee560d-a600-48bc-9dfa-8dfefc2d73fe",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           1600000,
@@ -110,9 +113,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871876306
+          "uuid": "9518aaaa-9236-4a8f-a545-1866856c03f7",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           100000,
@@ -142,9 +146,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871878134
+          "uuid": "d1acc5b1-83ce-4717-a53c-e1119548fe5b",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           11,
@@ -174,9 +179,10 @@
           "tags": [
             "stationparams"
           ],
-          "space": "7om50oDd",
-          "createdAt": 1588870530887,
-          "updatedAt": 1588871879904
+          "uuid": "7dba8de1-54ac-437f-aedb-c6bd6c0e9fd1",
+          "space": "7GVuU3M3",
+          "createdAt": 1640356726675,
+          "updatedAt": 1640356726675
         },
         "access_agreement": [
           30,
