@@ -54,7 +54,7 @@
           "updatedAt": 1640356726675
         },
         "access_agreement": [
-          -100
+          -117, -107
         ]
       },
       "geometry": {
@@ -71,10 +71,10 @@
       "type": "Feature",
       "properties": {
         "ref": 6,
-        "measure": "Гц",
+        "measure": "МГц",
         "param_name": "Частота TX",
         "station_id": "C5B7P1nFbjbDvCVa",
-        "actual_value": 148000000,
+        "actual_value": 148,
         "station_name": "БС1 \"Дооб\" (Геленджик)",
         "@ns:com:here:xyz": {
           "tags": [
@@ -86,8 +86,8 @@
           "updatedAt": 1640356726675
         },
         "access_agreement": [
-          1600000,
-          30000000
+          30,
+          960
         ]
       },
       "geometry": {
@@ -104,10 +104,10 @@
       "type": "Feature",
       "properties": {
         "ref": 3,
-        "measure": "Гц",
+        "measure": "МГц",
         "param_name": "Частота RX",
         "station_id": "C5B7P1nFbjbDvCVa",
-        "actual_value": 148000000,
+        "actual_value": 148,
         "station_name": "БС1 \"Дооб\" (Геленджик)",
         "@ns:com:here:xyz": {
           "tags": [
@@ -119,8 +119,8 @@
           "updatedAt": 1640356726675
         },
         "access_agreement": [
-          100000,
-          30000000
+          30,
+          960
         ]
       },
       "geometry": {
@@ -152,8 +152,8 @@
           "updatedAt": 1640356726675
         },
         "access_agreement": [
-          11,
-          16
+          7,8,
+          13,8
         ]
       },
       "geometry": {
@@ -185,7 +185,7 @@
           "updatedAt": 1640356726675
         },
         "access_agreement": [
-          30,
+          -10,
           60
         ]
       },
