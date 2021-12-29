@@ -57,7 +57,7 @@ function getLabels(dataSet, centroids) {
         closestCentroidIndex = j;
         prevDistance = getDistanceSQ(a, closestCentroid);
       } else {
-        // получить расстояние:
+        // получим расстояние:
         const distance = getDistanceSQ(a, centroid);
         if (distance < prevDistance) {
           prevDistance = distance;
