@@ -23,7 +23,7 @@ function getRandomCentroids(dataset, k) {
   }
   return centroids;
 }
-// Assign labels to each datapoint based on centroids
+// Назначим метки каждой точке данных на основе центроидов
 let labels = getLabels(dataset, centroids);
 
 // Calculate Squared Euclidean Distance
