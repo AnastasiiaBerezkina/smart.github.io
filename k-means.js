@@ -35,7 +35,7 @@ function getDistanceSQ(a, b) {
   return diffs.reduce((r, e) => (r + (e * e)), 0);
 }
 
-// Returns a label for each piece of data in the dataset. 
+// Возвращаем метку для каждого фрагмента данных в наборе данных.
 function getLabels(dataSet, centroids) {
   // prep data structure:
   const labels = {};
