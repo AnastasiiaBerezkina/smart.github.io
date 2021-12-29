@@ -45,8 +45,8 @@ function getLabels(dataSet, centroids) {
       centroid: centroids[c],
     };
   }
-  // For each element in the dataset, choose the closest centroid. 
-  // Make that centroid the element's label.
+   // Для каждого элемента в наборе данных выбераем ближайший центроид. 
+  // Сделаем этот центроид меткой элемента.
   for (let i = 0; i < dataSet.length; i++) {
     const a = dataSet[i];
     let closestCentroid, closestCentroidIndex, prevDistance;
