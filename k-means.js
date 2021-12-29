@@ -26,7 +26,7 @@ function getRandomCentroids(dataset, k) {
 // Назначим метки каждой точке данных на основе центроидов
 let labels = getLabels(dataset, centroids);
 
-// Вычислить Квадрат Евклидова Расстояния
+// Вычислим Квадрат Евклидова Расстояния
 function getDistanceSQ(a, b) {
   const diffs = [];
   for (let i = 0; i < a.length; i++) {
