@@ -1,3 +1,10 @@
+const access_token = 'APROuFj1RJGxDAGVh00HOAA';
+    const DataParams_spaceId = 'KIlcuBQR';
+
+ $.getJSON("https://xyz.api.here.com/hub/spaces/" + DataParams_spaceId + "/iterate?access_token=" + access_token).done(async(data)=>{
+    let dataset = [];
+   let k = 8
+
 function getRandomCentroids(dataset, k) {
   // selects random points as centroids from the dataset
   const numSamples = dataset.length;
