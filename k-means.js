@@ -6,7 +6,7 @@ const access_token = 'APROuFj1RJGxDAGVh00HOAA';
    let k = 8
 
 function getRandomCentroids(dataset, k) {
-  // selects random points as centroids from the dataset
+  // выбираеv случайные точки в качестве центроидов из набора данных
   const numSamples = dataset.length;
   const centroidsIndex = [];
   let index;
