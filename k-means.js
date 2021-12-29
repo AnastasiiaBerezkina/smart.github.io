@@ -66,7 +66,7 @@ function getLabels(dataSet, centroids) {
         }
       }
     }
- // add point to centroid labels:
+ // добавим точку к меткам центроидов:
     labels[closestCentroidIndex].points.push(a);
   }
   return labels;
